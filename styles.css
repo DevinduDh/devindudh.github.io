@@ -29,15 +29,43 @@ header nav ul li a {
 
 main {
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-section {
-    margin-bottom: 20px;
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+.project-card {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
     text-align: center;
 }
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card h2 {
+    margin-top: 20px;
+}
+
+.project-card p {
+    margin: 20px 0;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background
